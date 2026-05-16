@@ -1,0 +1,2 @@
+Start-Process -FilePath "d:\capstone-2-project-urban-Trace-main\capstone-2-project-urban-Trace-main\.venv\Scripts\python.exe" -ArgumentList "manage.py runserver 8000" -WorkingDirectory "d:\capstone-2-project-urban-Trace-main\capstone-2-project-urban-Trace-main"
+Start-Process -FilePath "npm" -ArgumentList "run dev" -WorkingDirectory "d:\capstone-2-project-urban-Trace-main\capstone-2-project-urban-Trace-main\Urban-Trace-frontend-fixed\fixed_frontend"
