@@ -1,7 +1,7 @@
 import { parseIssuesResponse, statusToBackend } from "../utils/issueMapper";
 import { normalizeIssue } from "../utils/issueMapper";
 
-const BASE_URL = "http://127.0.0.1:8000/api";
+const BASE_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000/api";
 export const ACCESS_TOKEN_KEY = "urban-trace-access-token";
 
 export function getAuthHeaders(): Record<string, string> {
