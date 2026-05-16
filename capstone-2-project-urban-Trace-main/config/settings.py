@@ -73,8 +73,6 @@ DATABASES = {
         'ENGINE': 'django_mongodb_backend',
         'NAME': config('MONGODB_NAME', default='urbantrace_db'),
         'HOST': config('MONGODB_HOST', default='mongodb://localhost:27017'),
-        'CONNECT': True,
-        'TZ_AWARE': True,
     }
 }
 
