@@ -75,8 +75,6 @@ DATABASES = {
         'HOST': config('MONGODB_HOST', default='mongodb://localhost:27017'),
         'CONNECT': True,
         'TZ_AWARE': True,
-        'ENFORCE_SCHEMA_IN_READ': False,
-        'ENFORCE_SCHEMA_IN_WRITE': False,
     }
 }
 
